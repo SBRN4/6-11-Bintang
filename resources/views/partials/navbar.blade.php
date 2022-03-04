@@ -16,7 +16,7 @@
         <a class="nav-link active {{ ( $title === 'Galeri') ? 'active' : '' }}" aria-current="page" href="/galeri">Galeri</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link active {{ ( $title === 'Contacts') ? 'active' : '' }}" aria-current="page" href="/contacts">Contact Us</a>
+        <a class="nav-link active {{ ( $title === 'Contacts') ? 'active' : '' }}" aria-current="page" href="{{ route('contacts.create')}}">Contact Us</a>
         </li>
       </ul>
           <ul class="navbar-nav ms-auto">
